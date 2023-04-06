@@ -69,6 +69,10 @@ body.active {
     background-color: #fff;
     border-radius: 20px;
 }
+.modal-box > p {
+    text-align: center;
+    font-size: 1rem;
+}
 /* 공통요소 */
 .wrap {
     position: relative;
