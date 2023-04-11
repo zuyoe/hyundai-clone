@@ -64,15 +64,63 @@ body.active {
     z-index: 999999999;
 }
 .modal-box {
+    position: relative;
     width: 600px;
     height: 450px;
     background-color: #fff;
     border-radius: 20px;
-}
-.modal-box > p {
     text-align: center;
-    font-size: 1rem;
+    line-height: 1.7;
 }
+.modal-close {
+    display: block;
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    transform: translateX(50%);
+    cursor: pointer;
+    color: #464646;
+    font-size: 25px;
+    margin-right: 20px;
+  }
+.m1 {
+    font-size: 20px;
+    padding: 40px 0 30px 0;
+}
+.m1 img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.m1 b {
+    font-weight: 700;
+    /* color: #f04760; */
+    color: #e03757;
+}
+.m2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    background-color: #e03757;
+    font-size: 17px;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.m3 {
+    font-size: 16px;
+}
+.m3 a {
+    font-weight: 700;
+    color: #e03757;
+    font-size: 18px;
+}
+
+
 /* 공통요소 */
 .wrap {
     position: relative;
